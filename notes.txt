@@ -1,0 +1,143 @@
+UNIX is a multi-user and multi-tasking operating system.
+
+
+UNIX operating system consists of 3 main components.
+	1. Kernel - Allocates memory & time to programs, Handle file store & communications in response to system calls
+	2. Shell - Interface between user and kernel
+	3. Program - Set of instructions to be executed
+
+
+UNIX operating system is based on 3 philosophies.
+	1. Simplicity
+		- Large number of simple applications instead of few complex ones
+		- Increases efficiency
+		- Less wastage of system resources
+		- Each program does one thing well
+	2. Reusability
+		- Consisting of large number of simple and small components
+	3. Portability
+		- Open source nature
+
+
+UNIX command syntax: $ command [options] [arguments]
+
+
+UNIX file system
+	/ (root)
+		root
+		boot
+		home
+		opt
+		bin
+		lib
+		tmp
+		sbin
+		var
+		mnt
+		etc
+		dev
+		proc
+		media
+
+
+UNIX commands
+	clear    - Clear the screen
+	cal      - Displays a calendar
+	date     - Print or set the system date and time
+	man      - To see the help of any command
+	info     - Read info documents
+	which    - Searches current $PATH for executable to locate a command
+	whereis  - Locate the binary, source, and manual page files for a command
+	whatis   - Display one-line manual page descriptions for the command
+	ls       - List directory contents
+	touch    - Create an empty file if not exists, else change file timestamps if exists
+	cat      - Concatenate files and print on the standard output
+	pwd      - Print name of current/working directory
+	mkdir    - Make directories
+	cd       - To change directory
+	cp       - Copy files and directories
+	rm       - Remove files or directories
+	rmdir    - Remove empty directories
+	mv       - Move or rename files
+	history  - GNU History Library
+	echo     - Display a line of text on STDOUT
+	ln       - Make links between files
+	vi       - Vi IMproved, a programmers text editor
+	ps       - Report a snapshot of the current processes
+	bg       - To send the suspended process to background
+	jobs     - List the job number of processes
+	fg       - To restart a suspended process
+	kill     - Send a signal to the process
+	top      - Display Linux processes and information like task, memory, cpu and swap
+	free     - Display amount of free and used memory in the system
+	vmstat   - Report virtual memory statistics
+	df       - Report file system disk space usage, disk allocation and mount point
+	du       - Estimate file space usage
+	file     - Determine the file type
+	find     - Search through directory hierarchy for files and directories with a given name, date, size, or other specified attribute
+	diff     - Compares the contents of two files and displays the differences
+	uptime   - Shows system uptime and load average
+	poweroff - Power-off the machine
+	reboot   - Reboots the machine
+	shutdown - Shut-down the machine
+	sleep    - Delay for a specified amount of time
+	exit     - Cause normal process termination
+	tar      - The GNU version of the tar archiving utility
+	tac      - Concatenate and print files in reverse
+	head     - Prints the first part of files, by default 'head' prints first 10 lines
+	tail     - Prints the last part of files
+	cut      - Remove sections from each line of files
+	tr       - Translate or delete characters
+	wc       - Print newline, word, and byte counts for each file
+	sort     - Sorts the lines of file
+	grep     - Print lines matching a pattern
+	sed      - Stream editor for filtering and transforming text
+	awk      - Pattern scanning and text processing language
+	id       - Print real and effective user and group IDs
+	who      - It shows who is logged on to the system currently
+	w        - It shows who is logged on and what they are doing
+	whoami   - It reveals currently logged in user
+	su       - Change user ID or become superuser
+	useradd  - Create a new user or update default new user information
+	passwd   - Change the password of the user created
+	usermod  - Modify a user account
+	userdel  - Delete a user account and related files
+	groups   - Print the groups a user is in
+	groupadd - Create a new group
+	gpasswd  - Administer /etc/group and /etc/gshadow
+	groupmod - Modify a group definition on the system
+	groupdel - Delete a group
+	chmod    - Change file permissions
+	chown    - Change file owner and group
+	chgrp    - Change group ownership
+	printenv - Print all or part of environment
+
+
+File Permissions
+
+	r - read
+	w - write
+	x - execute
+
+	u - user
+	g - group
+	o - others
+	a - all
+
+	+ - add specific permissions
+	- - revoke specific permissions
+
+	-rwxrwxrwx - user, group, others
+
+	0 - no permission
+	1 - execute only
+	2 - write only
+	3 - write and execute
+	4 - read only
+	5 - read and execute
+	6 - read and write
+	7 - read, write, and execute
+
+
+Shell - Interface between user and kernel
+		User <---> Shell <---> Kernel <---> Hardware
